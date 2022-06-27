@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
+    />
+    <!-- 箭头图标折叠样式 -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css"/>
+    <!-- 文件夹折叠图标样式 -->
+    <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" /> -->
+    <style>
+      .show {
+        position: relative;
+          overflow: hidden;
+      }
+      .show::before, .show::after {
+          content: '';
+          position: absolute;
+          bottom: 15vh;
+          min-width: 300vw;
+          min-height: 300vw;
+          background-color: #282c34;
+          animation: rote 10s linear infinite;
+      }
+      .show::before {
+          left: -95%;
+          border-radius: 45%;
+          opacity: .5;
+      }
+      .show::after {
+          left: -95%;
+          border-radius: 48%;
+      }
+      @keyframes rote {
+          from {
+              transform: rotateZ(0);
+          }
+          to {
+              transform: rotateZ(360deg);
+          }
+      }
+      .cover-main {
+        position: absolute;
+        z-index: 2;
+          color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      window.$docsify = {
+        name: "",
+        repo: "",
+        loadSidebar: true,
+        subMaxLevel: 4  ,
+        loadNavbar: true,
+        coverpage: true,
+        alias: {
+          "/.*/_sidebar.md": "/_sidebar.md",
+        },
+      };
+    </script>
+    <!-- Docsify v4 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
+  </body>
+</html>
