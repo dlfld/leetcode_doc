@@ -83,7 +83,7 @@ class Solution {
 ```
 
 ### Go
-``` Go
+``` golang
 func maxProfit(prices []int) int {
    if len(prices) == 1{
         return 0
