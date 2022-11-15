@@ -62,6 +62,7 @@
     * [小和问题](leetcode/数组逆序对、小和问题/小和问题.md)
   * 其他算法
     * [lowbit](leetcode/其他算法/lowbit.md)
+    * [最小公倍数和最大公因数](leetcode/其他算法/最大公因数和最小公倍数.md)
   
   
   
