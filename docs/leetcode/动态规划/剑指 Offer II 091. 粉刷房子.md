@@ -1,4 +1,5 @@
 # 剑指 Offer II 091. 粉刷房子
+
 <a href="https://leetcode.cn/problems/JEj789/">leetcode链接</a><br>
 
 假如有一排房子，共 n 个，每个房子可以被粉刷成红色、蓝色或者绿色这三种颜色中的一种，你需要粉刷所有的房子并且使其相邻的两个房子颜色不能相同。
