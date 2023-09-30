@@ -5,6 +5,6 @@
 
 [灵神](https://space.bilibili.com/206214)
 
-刷题笔记，记录了刷题时一些题的解法
+刷题笔记，记录了刷题时一些题的解法、部分CS知识点
 笔记网站链接   https://dlfld.github.io/leetcode_doc/#/
 
