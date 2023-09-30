@@ -84,6 +84,10 @@
     * [最小公倍数和最大公因数](leetcode/其他算法/最大公因数和最小公倍数.md)
     * [快速幂](leetcode/其他算法/快速幂.md)
   
-  
-  
-  
+
++ 面经
+	+ mq
+		+ [kafka](mq/kafka/kafka-basis.md)
+
+
+
