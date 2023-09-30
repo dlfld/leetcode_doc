@@ -1,4 +1,9 @@
 * leetcode
+  
+  * 排序算法
+    * [堆排序](leetcode/排序算法/堆排序.md)
+    * [归并排序](leetcode/排序算法/归并排序.md)
+  
   * 动态规划
     * [剑指 Offer II 091. 粉刷房子](leetcode/动态规划/剑指%20Offer%20II%20091.%20粉刷房子.md)
     * [买卖股票的最佳时机 II](leetcode/动态规划/%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%20II.md)
@@ -14,7 +19,6 @@
   * 双指针
     * [双指针](leetcode/双指针/双指针.md)
     * [检查两个字符串数组是否相等](leetcode/双指针/检查两个字符串数组是否相等.md)
-    
   * 滑动窗口
     * [6190. 找到所有好下标](leetcode/滑动窗口/6190.%20%E6%89%BE%E5%88%B0%E6%89%80%E6%9C%89%E5%A5%BD%E4%B8%8B%E6%A0%87.md)
     * [6230. 长度为 K 子数组中的最大和](leetcode/滑动窗口/6230. 长度为 K 子数组中的最大和.md)
@@ -84,10 +88,9 @@
     * [最小公倍数和最大公因数](leetcode/其他算法/最大公因数和最小公倍数.md)
     * [快速幂](leetcode/其他算法/快速幂.md)
   
-
 * 面经
-	* mq
-		* [kafka](mq/kafka/kafka-basis.md)
+  * mq
+  	* [kafka](mq/kafka/kafka-basis.md)
   * 操作系统
     * [操作系统用户态和内核态](Go/用户态和内核态.md)
 
